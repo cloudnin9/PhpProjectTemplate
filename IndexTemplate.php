@@ -58,7 +58,7 @@
 
                 <article>
                     <p class="text-justify">
-                        This is my first php page! It was different but never the less a very pleasant experience developing with PHP.
+                        This is my php site! It was different but never the less a very pleasant experience developing with PHP.
                     </p>
                 </article>
             </div>
