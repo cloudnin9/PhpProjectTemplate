@@ -1,0 +1,40 @@
+{
+"author":
+    {
+        "name": "Naing Ye Lin",
+        "last name": "Thein",
+        "age": 100,
+        "email": "nyl.thein@gmail.com",
+        "mobile": "04-01XX-XXXX",
+        "phone": "XX-XXXX-XXXX",
+        "residence":
+            {
+                "address lines":["Line 1", "Line 2", "Line 3"],
+                "city": "Crows Nest",
+                "code": "2065",
+                "country": "south pole",
+                "state": "no no where"
+            },
+        "postal":
+            {
+                "address lines":["Line 1", "Line 2", "Line 3"],
+                "city": "Crows Nest",
+                "code": "2065",
+                "country": "south pole",
+                "state": "no where"
+            },
+        "about": "Naing has been a gainfully employed software developer since 2006. He was a back end developer ,focused mainly on the Microsoft .Net stack, SQL Server and a bit of Oracle, and was also a team leader for some time. After dabbling in Microsoft Silverlight, he decided that he really enjoys web development and decided to start learning about HTTP. So far he has worked with, on the server side, Asp.Net Web Forms/MVC. On the client side HTML/CSS/Javascript (jQuery and a sprinkle of Angular still has a ways to go). He is also currently learning PHP to get a taste of open source development."
+    },
+"guest":
+    {
+        "name": "Guest",
+        "last name": "",
+        "age": 0,
+        "email": "na",
+        "mobile": "na",
+        "phone": "na",
+        "residence": {},
+        "postal": {},
+        "about": ""
+    }
+}

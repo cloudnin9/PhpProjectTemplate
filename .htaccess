@@ -1,0 +1,20 @@
+Options -MultiViews
+
+RewriteEngine On
+
+Options -Indexes
+
+#RewriteBase /Project/
+
+#RewriteCond %{request_filename} !-d
+#RewriteCond %{request_filename} !-f
+#RewriteCond %{request_filename} !-l
+
+RewriteRule ^([^/\.]+)/?$ index.php?_CONTROLLER=$1 [L]
+RewriteRule ^([^/\.]+)/([^/\.]+)/?$ index.php?_CONTROLLER=$1&_ACTION=$2 [L]
+RewriteRule ^([^/\.]+)/([^/\.]+)/?\?(.*)$ index.php?_CONTROLLER=$1&_ACTION=$2&_QUERY=$3 [L]
+
+#RewriteRule ^Project/([^/\.]+])/([^/\.]+])/?$ index.php?_CONTROLLER=$1&_ACTION=$2 [L]
+#RewriteRule ^Project/([^/\.]+])/([^/\.]+])/([^/\.]+])/?$ index.php?_CONTROLLER=$1&_ACTION=$2&$_REQUEST=$3 [L]
+
+
